@@ -2,11 +2,9 @@ package stackjava.com;
 
 public class Staticblock {
     static int n;
-    int m=5;
     static String mystr;
     Staticblock(){
         System.out.println("Constuctor is called after Static block");
-        int b = this.m;
     }
     static{
         n=10;
