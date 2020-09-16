@@ -8,7 +8,7 @@ public class AccountWorker implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 4; i++) {
             makeWithdrawal(2000);
             if (account.getBalance() <= 0) {
                 System.out.println("account is overdrawn!");

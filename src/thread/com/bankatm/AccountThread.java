@@ -5,7 +5,7 @@ public class AccountThread {
 
         Account account = new Account();
         AccountWorker accountHolder1 = new AccountWorker(account);
-        
+
         Thread t1 = new Thread(accountHolder1);
         Thread t2 = new Thread(accountHolder1);
         Thread t3 = new Thread(accountHolder1);
